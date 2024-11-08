@@ -1,0 +1,84 @@
+.recommendations-container {
+    padding: 3rem;
+    text-align: center;
+    background-color: #070000;
+    min-height: 100vh;
+  }
+  
+  h2 {
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+    color: #ffffff;
+    font-family: 'Playfair Display', serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    animation: fadeIn 1s ease-in-out;
+  }
+  
+  
+  .carousel {
+    margin-top: 3rem;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .slick-dots {
+    bottom: 20px;
+  }
+  
+  .slick-dots li button {
+    background-color: #aaa; 
+    opacity: 0.7; 
+  }
+  
+  .slick-dots li.slick-active button {
+    background-color: #fff; 
+    opacity: 1; 
+  }
+  
+  .slick-prev, .slick-next {
+    z-index: 1;
+  }
+  
+ 
+  .recommendation {
+    background-color: #fff;
+    margin: 1.5rem auto;
+    padding: 1.5rem;
+    border-radius: 15px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    max-width: 600px;
+  }
+  
+  .recommendation:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.15);
+  }
+  
+ 
+  @keyframes fadeIn {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  
+
+  @media (max-width: 768px) {
+    .recommendations-container {
+      padding: 2rem;
+    }
+  
+    .carousel {
+      width: 90%;
+    }
+  
+    h2 {
+      font-size: 2rem;
+    }
+  }
+  
