@@ -8,7 +8,7 @@
 .recommendations-container h2, 
 .recommendations-container .recommendation p, 
 .recommendations-container .recommendation h3 {
-    color: #000; /* Set text color to black */
+    color: #000; 
 }
 
 h2 {
