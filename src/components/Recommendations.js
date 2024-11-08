@@ -5,7 +5,7 @@ import { GoogleGenerativeAI } from "@google/generative-ai";
 import './Recommendations.css';
 
 
-const genAI = new GoogleGenerativeAI("AIzaSyAZC8FPXW4fbfSv_N65uFCiFh8JiaakKcI"); 
+const genAI = new GoogleGenerativeAI("AIzaSyDrNtoRH0dODZ2TnK4xw_cWcf6qWFnsJ6I"); 
 const model = genAI.getGenerativeModel({ model: "gemini-1.5-pro" });
 
 function Recommendations() {
